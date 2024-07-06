@@ -1,0 +1,7 @@
+def celsius_to_fahrenheit(celsius):
+ #By using this formula celsius converted into fahrenheit value.
+    fahrenheit = (celsius * 9/5) + 32
+    return fahrenheit
+celsius = float(input())
+fahrenheit = celsius_to_fahrenheit(celsius)
+print(fahrenheit,"F")
