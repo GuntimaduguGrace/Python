@@ -1,0 +1,36 @@
+# Adds List Element as value of List.
+List = ['Mathematics', 'chemistry', 1997, 2000]
+List.append(20544)
+print(List)
+# Insert at index 2 value 10087
+List.insert(2, 10087)
+print(List)
+#Extend()
+List1 = [1, 2, 3]
+List2 = [2, 3, 4, 5]
+# Add List2 to List1
+List1.extend(List2)
+print(List1)
+# Add List1 to List2 now
+List2.extend(List1)
+print(List2)
+#Sum()
+print(sum(List1))
+List3 = [1, 2, 3, 1, 2, 1, 2, 3, 2, 1]
+#Count of occurrence of an item
+print(List3.count(1))
+#Length of list
+print(len(List))
+#reversing the list
+list3.reverse()
+#printing the list
+print(list3)
+#Methods to delete items in list
+#pop()
+print(List3.pop())
+#del()
+del List3[0]
+print(List3)
+#remove()
+List3.remove(3)
+print(List3)
